@@ -2,13 +2,13 @@ import React from 'react'
 
 function App() {
   return (
-    <div className="h-screen w-full overflow-hidden flex flex-col bg-gradient-to-br from-construction-dark via-gray-800 to-construction-dark">
+    <div className="h-screen w-full overflow-hidden flex flex-col bg-gradient-to-br from-orange-50 via-amber-50 to-white">
       {/* Main Content Container */}
       <div className="flex-1 flex flex-col items-center justify-center px-4 py-8">
         
         {/* Company Name / Header */}
         <div className="mb-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-construction-yellow mb-2 tracking-wide">
+          <h1 className="text-5xl md:text-7xl font-bold text-construction-orange mb-2 tracking-wide">
             amis amis
           </h1>
           <div className="h-1 w-32 bg-construction-orange mx-auto mt-4"></div>
@@ -16,7 +16,7 @@ function App() {
 
         {/* Under Construction Message */}
         <div className="text-center mb-4">
-          <h2 className="text-2xl md:text-4xl font-semibold text-white mb-1">
+          <h2 className="text-2xl md:text-4xl font-semibold text-gray-800 mb-1">
             Web je nyní ve výstavbě
           </h2>
           
@@ -34,8 +34,8 @@ function App() {
         </div>
 
         {/* Contact Section */}
-        <div className="w-full max-w-2xl bg-gray-900/50 backdrop-blur-sm rounded-lg shadow-xl p-4 border border-construction-yellow/30">
-          <h3 className="text-xl font-bold text-construction-yellow mb-3 text-center">
+        <div className="w-full max-w-2xl bg-white/80 backdrop-blur-sm rounded-lg shadow-xl p-4 border border-amber-200">
+          <h3 className="text-xl font-bold text-construction-orange mb-3 text-center">
             Kontakt
           </h3>
           <div className="space-y-3">
@@ -44,8 +44,8 @@ function App() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               <div>
-                <p className="text-gray-400 text-xs">Email</p>
-                <p className="text-white font-medium text-sm">info@amisamis.cz</p>
+                <p className="text-gray-500 text-xs">Email</p>
+                <p className="text-gray-800 font-medium text-sm">info@amisamis.cz</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -53,8 +53,8 @@ function App() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
               <div>
-                <p className="text-gray-400 text-xs">Telefon</p>
-                <p className="text-white font-medium text-sm">+420 123 456 789</p>
+                <p className="text-gray-500 text-xs">Telefon</p>
+                <p className="text-gray-800 font-medium text-sm">+420 123 456 789</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -63,8 +63,8 @@ function App() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
               <div>
-                <p className="text-gray-400 text-xs">Adresa</p>
-                <p className="text-white font-medium text-sm">Praha, Česká republika</p>
+                <p className="text-gray-500 text-xs">Adresa</p>
+                <p className="text-gray-800 font-medium text-sm">Praha, Česká republika</p>
               </div>
             </div>
           </div>
@@ -72,8 +72,8 @@ function App() {
       </div>
 
       {/* Footer */}
-      <div className="py-4 text-center border-t border-gray-700">
-        <p className="text-gray-400 text-sm">
+      <div className="py-4 text-center border-t border-gray-200">
+        <p className="text-gray-600 text-sm">
           © {new Date().getFullYear()} amis amis. Všechna práva vyhrazena.
         </p>
       </div>
